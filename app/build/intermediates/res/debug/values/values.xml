@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Software/AndroidStudioProjects/HighLow/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <color name="currentc">#FFFF00</color>
+    <color name="welcomec">#FFF000</color>
+    <string name="CurrentCard">First card: </string>
+    <string name="Left">Higher</string>
+    <string name="Right">Lower</string>
+    <string name="Welcome">This program lets you play the simple card game,
+HighLow.  A card is dealt from a deck of cards.
+You have to predict whether the next card will be
+higher or lower. \n </string>
+    <string name="app_name">HighLow</string>
+    <!-- From: file:/C:/Software/AndroidStudioProjects/HighLow/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

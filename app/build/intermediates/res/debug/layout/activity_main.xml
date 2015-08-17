@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:background="#999966"
+        android:text="@string/Welcome" />
+    
+	<View android:layout_width="fill_parent"
+    	android:layout_height="10px"
+    	android:background="#000000" />
+	
+    <TextView
+        android:id="@+id/CurrentCard"
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+
+        android:background="#999999"
+        android:textSize="10pt" />
+ 
+    	<View android:layout_width="fill_parent"
+    	android:layout_height="10px"
+    	android:background="#000000" />
+    		
+    <RadioGroup
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="#9999ff"
+    	android:orientation="horizontal" >
+            
+    	<RadioButton android:id="@+id/Left"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="10pt"
+        	android:text="@string/Left" />
+    	
+    	<View android:layout_width="50px"
+    		android:layout_height="match_parent" />
+
+    	<RadioButton android:id="@+id/Right"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="10pt"
+        	android:text="@string/Right" />
+	</RadioGroup>
+	
+</LinearLayout><!-- From: file:/C:/Software/AndroidStudioProjects/HighLow/app/src/main/res/layout/activity_main.xml -->

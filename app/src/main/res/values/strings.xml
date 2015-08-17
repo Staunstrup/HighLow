@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HighLow</string>
+    <string name="Welcome">This program lets you play the simple card game,
+HighLow.  A card is dealt from a deck of cards.
+You have to predict whether the next card will be
+higher or lower. \n </string>
+
+    <string name="Left">Higher</string>
+    <string name="Right">Lower</string>
+    <string name="CurrentCard">First card: </string>
+    <color name="welcomec">#FFF000</color>
+    <color name="currentc">#FFFF00</color>
+
+</resources>
